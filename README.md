@@ -10,6 +10,10 @@ First of all, to access any of the features you must be logged in. So do so if y
 Then when you have logged in you will have the ability to add other users as friends as well as add stocks to your
 portfolio.
 
-## Contributions
+## Getting started locally
 
-I actually don't mind if you submit contributions, so please send those pull requests!
+1. Clone this branch, then `cd` into the directory.
+2. Run `bundle install`
+4. Run `rake db:migrate`
+5. Run `rails server`
+6. Go to `localhost`
